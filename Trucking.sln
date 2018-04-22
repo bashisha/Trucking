@@ -11,19 +11,21 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Trucking.Repository", "Truc
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Trucking.Service", "Trucking.Service\Trucking.Service.csproj", "{15BA0E88-97C7-43C0-AEF2-B34516E4F7DC}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Trucking.Core", "Trucking.Core", "{568D8623-54D5-43BF-B6FF-6CD5423544B0}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Framework", "Framework", "{568D8623-54D5-43BF-B6FF-6CD5423544B0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Repository.Pattern", "Repository.Pattern\Repository.Pattern.csproj", "{3A4A26FA-5A95-4C23-A043-F7DDF9B9FAA5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Repository.Pattern", "Repository.Pattern\Repository.Pattern.csproj", "{3A4A26FA-5A95-4C23-A043-F7DDF9B9FAA5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Repository.Pattern.Ef6", "Repository.Pattern.Ef6\Repository.Pattern.Ef6.csproj", "{0A74E6A3-7034-4406-984D-F8420064782D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Repository.Pattern.Ef6", "Repository.Pattern.Ef6\Repository.Pattern.Ef6.csproj", "{0A74E6A3-7034-4406-984D-F8420064782D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Service.Pattern", "Service.Pattern\Service.Pattern.csproj", "{15C3A30F-19E2-40A4-A718-C43D9B71B4F3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Service.Pattern", "Service.Pattern\Service.Pattern.csproj", "{15C3A30F-19E2-40A4-A718-C43D9B71B4F3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Trucking.Web.Tests", "Trucking.Web.Tests\Trucking.Web.Tests.csproj", "{EFD871B5-B661-4D94-8FAC-7A2ADA2A1904}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Trucking.Web.Tests", "Trucking.Web.Tests\Trucking.Web.Tests.csproj", "{EFD871B5-B661-4D94-8FAC-7A2ADA2A1904}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Trucking.Service.Tests", "Trucking.Service.Tests\Trucking.Service.Tests.csproj", "{FCF75C86-707E-4A5D-9953-9B1983BDBCBE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Trucking.Service.Tests", "Trucking.Service.Tests\Trucking.Service.Tests.csproj", "{FCF75C86-707E-4A5D-9953-9B1983BDBCBE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Trucking.Repository.Tests", "Trucking.Repository.Tests\Trucking.Repository.Tests.csproj", "{8DBB1C5F-5991-406B-9C93-4CC21BAF32AF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Trucking.Repository.Tests", "Trucking.Repository.Tests\Trucking.Repository.Tests.csproj", "{8DBB1C5F-5991-406B-9C93-4CC21BAF32AF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Trucking.Entities.Tests", "Trucking.Entities.Tests\Trucking.Entities.Tests.csproj", "{5D0EAA4E-B832-487E-9E1B-21F056D25713}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -113,6 +115,14 @@ Global
 		{8DBB1C5F-5991-406B-9C93-4CC21BAF32AF}.Release|Any CPU.Build.0 = Release|Any CPU
 		{8DBB1C5F-5991-406B-9C93-4CC21BAF32AF}.Release|x86.ActiveCfg = Release|Any CPU
 		{8DBB1C5F-5991-406B-9C93-4CC21BAF32AF}.Release|x86.Build.0 = Release|Any CPU
+		{5D0EAA4E-B832-487E-9E1B-21F056D25713}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5D0EAA4E-B832-487E-9E1B-21F056D25713}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5D0EAA4E-B832-487E-9E1B-21F056D25713}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{5D0EAA4E-B832-487E-9E1B-21F056D25713}.Debug|x86.Build.0 = Debug|Any CPU
+		{5D0EAA4E-B832-487E-9E1B-21F056D25713}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5D0EAA4E-B832-487E-9E1B-21F056D25713}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5D0EAA4E-B832-487E-9E1B-21F056D25713}.Release|x86.ActiveCfg = Release|Any CPU
+		{5D0EAA4E-B832-487E-9E1B-21F056D25713}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

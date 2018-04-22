@@ -1,0 +1,17 @@
+C:\Users\Bernie\Documents\Projects\Trucking\Trucking.Entities.Tests\bin\Debug\netcoreapp2.0\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Users\Bernie\Documents\Projects\Trucking\Trucking.Entities.Tests\bin\Debug\netcoreapp2.0\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Users\Bernie\Documents\Projects\Trucking\Trucking.Entities.Tests\bin\Debug\netcoreapp2.0\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Users\Bernie\Documents\Projects\Trucking\Trucking.Entities.Tests\bin\Debug\netcoreapp2.0\Trucking.Entities.Tests.deps.json
+C:\Users\Bernie\Documents\Projects\Trucking\Trucking.Entities.Tests\bin\Debug\netcoreapp2.0\Trucking.Entities.Tests.runtimeconfig.json
+C:\Users\Bernie\Documents\Projects\Trucking\Trucking.Entities.Tests\bin\Debug\netcoreapp2.0\Trucking.Entities.Tests.runtimeconfig.dev.json
+C:\Users\Bernie\Documents\Projects\Trucking\Trucking.Entities.Tests\bin\Debug\netcoreapp2.0\Trucking.Entities.Tests.dll
+C:\Users\Bernie\Documents\Projects\Trucking\Trucking.Entities.Tests\bin\Debug\netcoreapp2.0\Trucking.Entities.Tests.pdb
+C:\Users\Bernie\Documents\Projects\Trucking\Trucking.Entities.Tests\bin\Debug\netcoreapp2.0\Trucking.Entities.dll
+C:\Users\Bernie\Documents\Projects\Trucking\Trucking.Entities.Tests\bin\Debug\netcoreapp2.0\Trucking.Entities.pdb
+C:\Users\Bernie\Documents\Projects\Trucking\Trucking.Entities.Tests\obj\Debug\netcoreapp2.0\Trucking.Entities.Tests.csprojResolveAssemblyReference.cache
+C:\Users\Bernie\Documents\Projects\Trucking\Trucking.Entities.Tests\obj\Debug\netcoreapp2.0\Trucking.Entities.Tests.csproj.CoreCompileInputs.cache
+C:\Users\Bernie\Documents\Projects\Trucking\Trucking.Entities.Tests\obj\Debug\netcoreapp2.0\Trucking.Entities.Tests.AssemblyInfoInputs.cache
+C:\Users\Bernie\Documents\Projects\Trucking\Trucking.Entities.Tests\obj\Debug\netcoreapp2.0\Trucking.Entities.Tests.AssemblyInfo.cs
+C:\Users\Bernie\Documents\Projects\Trucking\Trucking.Entities.Tests\obj\Debug\netcoreapp2.0\Trucking.Entities.Tests.csproj.CopyComplete
+C:\Users\Bernie\Documents\Projects\Trucking\Trucking.Entities.Tests\obj\Debug\netcoreapp2.0\Trucking.Entities.Tests.dll
+C:\Users\Bernie\Documents\Projects\Trucking\Trucking.Entities.Tests\obj\Debug\netcoreapp2.0\Trucking.Entities.Tests.pdb

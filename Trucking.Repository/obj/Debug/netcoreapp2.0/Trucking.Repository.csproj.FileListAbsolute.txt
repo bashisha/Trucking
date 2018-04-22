@@ -1,9 +1,9 @@
 C:\Users\Bernie\Documents\Projects\Trucking\Trucking.Repository\bin\Debug\netcoreapp2.0\Trucking.Repository.deps.json
 C:\Users\Bernie\Documents\Projects\Trucking\Trucking.Repository\bin\Debug\netcoreapp2.0\Trucking.Repository.dll
 C:\Users\Bernie\Documents\Projects\Trucking\Trucking.Repository\bin\Debug\netcoreapp2.0\Trucking.Repository.pdb
-C:\Users\Bernie\Documents\Projects\Trucking\Trucking.Repository\obj\Debug\netcoreapp2.0\Trucking.Repository.csprojResolveAssemblyReference.cache
 C:\Users\Bernie\Documents\Projects\Trucking\Trucking.Repository\obj\Debug\netcoreapp2.0\Trucking.Repository.csproj.CoreCompileInputs.cache
 C:\Users\Bernie\Documents\Projects\Trucking\Trucking.Repository\obj\Debug\netcoreapp2.0\Trucking.Repository.AssemblyInfoInputs.cache
 C:\Users\Bernie\Documents\Projects\Trucking\Trucking.Repository\obj\Debug\netcoreapp2.0\Trucking.Repository.AssemblyInfo.cs
 C:\Users\Bernie\Documents\Projects\Trucking\Trucking.Repository\obj\Debug\netcoreapp2.0\Trucking.Repository.dll
 C:\Users\Bernie\Documents\Projects\Trucking\Trucking.Repository\obj\Debug\netcoreapp2.0\Trucking.Repository.pdb
+C:\Users\Bernie\Documents\Projects\Trucking\Trucking.Repository\obj\Debug\netcoreapp2.0\Trucking.Repository.csprojResolveAssemblyReference.cache
