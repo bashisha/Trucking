@@ -1,0 +1,11 @@
+C:\Users\Bernie\Documents\Projects\Trucking\Trucking.Web\bin\Debug\netcoreapp2.0\Trucking.Web.deps.json
+C:\Users\Bernie\Documents\Projects\Trucking\Trucking.Web\bin\Debug\netcoreapp2.0\Trucking.Web.runtimeconfig.json
+C:\Users\Bernie\Documents\Projects\Trucking\Trucking.Web\bin\Debug\netcoreapp2.0\Trucking.Web.runtimeconfig.dev.json
+C:\Users\Bernie\Documents\Projects\Trucking\Trucking.Web\bin\Debug\netcoreapp2.0\Trucking.Web.dll
+C:\Users\Bernie\Documents\Projects\Trucking\Trucking.Web\bin\Debug\netcoreapp2.0\Trucking.Web.pdb
+C:\Users\Bernie\Documents\Projects\Trucking\Trucking.Web\obj\Debug\netcoreapp2.0\Trucking.Web.csprojResolveAssemblyReference.cache
+C:\Users\Bernie\Documents\Projects\Trucking\Trucking.Web\obj\Debug\netcoreapp2.0\Trucking.Web.csproj.CoreCompileInputs.cache
+C:\Users\Bernie\Documents\Projects\Trucking\Trucking.Web\obj\Debug\netcoreapp2.0\Trucking.Web.AssemblyInfoInputs.cache
+C:\Users\Bernie\Documents\Projects\Trucking\Trucking.Web\obj\Debug\netcoreapp2.0\Trucking.Web.AssemblyInfo.cs
+C:\Users\Bernie\Documents\Projects\Trucking\Trucking.Web\obj\Debug\netcoreapp2.0\Trucking.Web.dll
+C:\Users\Bernie\Documents\Projects\Trucking\Trucking.Web\obj\Debug\netcoreapp2.0\Trucking.Web.pdb

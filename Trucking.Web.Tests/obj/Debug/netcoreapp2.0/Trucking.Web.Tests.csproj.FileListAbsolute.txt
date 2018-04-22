@@ -1,0 +1,17 @@
+C:\Users\Bernie\Documents\Projects\Trucking\Trucking.Web.Tests\bin\Debug\netcoreapp2.0\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Users\Bernie\Documents\Projects\Trucking\Trucking.Web.Tests\bin\Debug\netcoreapp2.0\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Users\Bernie\Documents\Projects\Trucking\Trucking.Web.Tests\bin\Debug\netcoreapp2.0\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Users\Bernie\Documents\Projects\Trucking\Trucking.Web.Tests\bin\Debug\netcoreapp2.0\Trucking.Web.Tests.deps.json
+C:\Users\Bernie\Documents\Projects\Trucking\Trucking.Web.Tests\bin\Debug\netcoreapp2.0\Trucking.Web.Tests.runtimeconfig.json
+C:\Users\Bernie\Documents\Projects\Trucking\Trucking.Web.Tests\bin\Debug\netcoreapp2.0\Trucking.Web.Tests.runtimeconfig.dev.json
+C:\Users\Bernie\Documents\Projects\Trucking\Trucking.Web.Tests\bin\Debug\netcoreapp2.0\Trucking.Web.Tests.dll
+C:\Users\Bernie\Documents\Projects\Trucking\Trucking.Web.Tests\bin\Debug\netcoreapp2.0\Trucking.Web.Tests.pdb
+C:\Users\Bernie\Documents\Projects\Trucking\Trucking.Web.Tests\bin\Debug\netcoreapp2.0\Trucking.Web.dll
+C:\Users\Bernie\Documents\Projects\Trucking\Trucking.Web.Tests\bin\Debug\netcoreapp2.0\Trucking.Web.pdb
+C:\Users\Bernie\Documents\Projects\Trucking\Trucking.Web.Tests\obj\Debug\netcoreapp2.0\Trucking.Web.Tests.csprojResolveAssemblyReference.cache
+C:\Users\Bernie\Documents\Projects\Trucking\Trucking.Web.Tests\obj\Debug\netcoreapp2.0\Trucking.Web.Tests.csproj.CoreCompileInputs.cache
+C:\Users\Bernie\Documents\Projects\Trucking\Trucking.Web.Tests\obj\Debug\netcoreapp2.0\Trucking.Web.Tests.AssemblyInfoInputs.cache
+C:\Users\Bernie\Documents\Projects\Trucking\Trucking.Web.Tests\obj\Debug\netcoreapp2.0\Trucking.Web.Tests.AssemblyInfo.cs
+C:\Users\Bernie\Documents\Projects\Trucking\Trucking.Web.Tests\obj\Debug\netcoreapp2.0\Trucking.Web.Tests.csproj.CopyComplete
+C:\Users\Bernie\Documents\Projects\Trucking\Trucking.Web.Tests\obj\Debug\netcoreapp2.0\Trucking.Web.Tests.dll
+C:\Users\Bernie\Documents\Projects\Trucking\Trucking.Web.Tests\obj\Debug\netcoreapp2.0\Trucking.Web.Tests.pdb
