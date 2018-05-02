@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Linq.Expressions;
 using TrackableEntities;
+using TrackableEntities.Common.Core;
 
 namespace Repository.Pattern.Repositories
 {

@@ -1,10 +1,12 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
+﻿using Repository.Pattern.Ef6;
 
 namespace Trucking.Entities.Models
 {
-    class Owner
+    public class Owner : Entity
     {
+        public int Id { get; set; }
+        public string LastName { get; set; }
+        public string FirstName { get; set; }
+        public string Address { get; set; }
     }
 }

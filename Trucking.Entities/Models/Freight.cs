@@ -1,10 +1,12 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
+﻿using Repository.Pattern.Ef6;
 
 namespace Trucking.Entities.Models
 {
-    class Freight
+    public class Freight : Entity
     {
+        public int Id { get; set; }
+        public int Weight { get; set; }
+        public string FromAddress { get; set; }
+        public string ToAddress { get; set; }
     }
 }

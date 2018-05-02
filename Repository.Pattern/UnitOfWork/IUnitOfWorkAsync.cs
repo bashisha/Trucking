@@ -2,6 +2,7 @@
 using System.Threading.Tasks;
 using Repository.Pattern.Repositories;
 using TrackableEntities;
+using TrackableEntities.Common.Core;
 
 namespace Repository.Pattern.UnitOfWork
 {

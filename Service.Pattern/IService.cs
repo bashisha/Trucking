@@ -6,6 +6,7 @@ using System.Threading;
 using System.Threading.Tasks;
 using Repository.Pattern.Repositories;
 using TrackableEntities;
+using TrackableEntities.Common.Core;
 
 namespace Service.Pattern
 {

@@ -1,11 +1,12 @@
 using System;
-using System.Data.Entity;
+
 using System.Linq;
 using System.Threading;
 using System.Threading.Tasks;
+using Microsoft.EntityFrameworkCore;
 using Repository.Pattern.DataContext;
-using TrackableEntities;
-using TrackableEntities.EF6;
+
+using TrackableEntities.Common.Core;
 
 namespace Repository.Pattern.Ef6
 {
@@ -14,11 +15,11 @@ namespace Repository.Pattern.Ef6
     {
         private readonly Guid _instanceId;
 
-        public DataContext(string nameOrConnectionString) : base(nameOrConnectionString)
+        public DataContext(DbContextOptions<DataContext> options) : base(options)
         {
             _instanceId = Guid.NewGuid();
-            Configuration.LazyLoadingEnabled = false;
-            Configuration.ProxyCreationEnabled = false;
+            //.LazyLoadingEnabled = false;
+            //Configuration.ProxyCreationEnabled = false;
         }
 
         public Guid InstanceId => _instanceId;
@@ -75,7 +76,7 @@ namespace Repository.Pattern.Ef6
         /// <returns>A task that represents the asynchronous save operation.  The 
         ///     <see cref="Task.Result">Task.Result</see> contains the number of 
         ///     objects written to the underlying database.</returns>
-        public override async Task<int> SaveChangesAsync()
+        public async Task<int> SaveChangesAsync()
         {
             return await SaveChangesAsync(CancellationToken.None);
         }
@@ -112,13 +113,14 @@ namespace Repository.Pattern.Ef6
 
         public void SyncObjectState<TEntity>(TEntity entity) where TEntity : class, ITrackable
         {
-            this.ApplyChanges(entity);
+            this.SyncObjectState(entity);        
+            //this.ApplyChanges(entity);
         }
 
         private void SyncObjectsStatePreCommit()
         {
             var entities = ChangeTracker.Entries().Select(x => x.Entity).OfType<ITrackable>();
-            this.ApplyChanges(entities);
+            //this.ApplyChanges(entities);
         }
 
         public void SyncObjectsStatePostCommit()

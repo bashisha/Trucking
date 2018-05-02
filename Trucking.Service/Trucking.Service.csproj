@@ -4,4 +4,9 @@
     <TargetFramework>netcoreapp2.0</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Service.Pattern\Service.Pattern.csproj" />
+    <ProjectReference Include="..\Trucking.Entities\Trucking.Entities.csproj" />
+  </ItemGroup>
+
 </Project>

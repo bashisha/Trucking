@@ -1,10 +1,11 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Data.Entity;
 using System.Threading;
 using System.Threading.Tasks;
+using Microsoft.EntityFrameworkCore;
 using Repository.Pattern.DataContext;
-using TrackableEntities;
+using TrackableEntities.Common.Core;
+using TrackableEntities.EF.Core;
 
 namespace Repository.Pattern.Ef6
 {
@@ -14,7 +15,7 @@ namespace Repository.Pattern.Ef6
 
         void AddFakeDbSet<TEntity, TFakeDbSet>()
             where TEntity : Entity, new()
-            where TFakeDbSet : FakeDbSet<TEntity>, IDbSet<TEntity>, new();
+            where TFakeDbSet : FakeDbSet<TEntity>, DbSet<TEntity>, new();
     }
 
     public abstract class FakeDbContext : IFakeDbContext

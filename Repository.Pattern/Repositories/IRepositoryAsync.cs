@@ -2,6 +2,7 @@
 using System.Threading;
 using System.Threading.Tasks;
 using TrackableEntities;
+using TrackableEntities.Common.Core;
 
 namespace Repository.Pattern.Repositories
 {

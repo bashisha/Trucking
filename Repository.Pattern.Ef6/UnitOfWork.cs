@@ -2,14 +2,13 @@
 using System.Collections.Generic;
 using System.Data;
 using System.Data.Common;
-using System.Data.Entity;
-using System.Data.Entity.Infrastructure;
 using System.Threading;
 using System.Threading.Tasks;
 using CommonServiceLocator;
+using Microsoft.EntityFrameworkCore;
 using Repository.Pattern.Repositories;
 using Repository.Pattern.UnitOfWork;
-using TrackableEntities;
+using TrackableEntities.Common.Core;
 
 namespace Repository.Pattern.Ef6
 {
@@ -21,7 +20,7 @@ namespace Repository.Pattern.Ef6
 
         public UnitOfWork(DbContext context)
         {
-            _context = context;
+            _context = context;           
             Repositories = new Dictionary<string, dynamic>();
         }
 
@@ -36,9 +35,9 @@ namespace Repository.Pattern.Ef6
         }
 
         public int? CommandTimeout
-        {
-            get => _context.Database.CommandTimeout;
-            set => _context.Database.CommandTimeout = value;
+        {           
+            get => _context.Database.GetCommandTimeout();
+            set => _context.Database.SetCommandTimeout (value);
         }
 
         public virtual int SaveChanges() => _context.SaveChanges();
@@ -95,13 +94,12 @@ namespace Repository.Pattern.Ef6
         }
 
         public virtual void BeginTransaction(IsolationLevel isolationLevel = IsolationLevel.Unspecified)
-        {
-            var objectContext = ((IObjectContextAdapter) _context).ObjectContext;
-            if (objectContext.Connection.State != ConnectionState.Open)
+        {            
+           if( _context.Database.GetDbConnection().State != ConnectionState.Open)
             {
-                objectContext.Connection.Open();
+                _context.Database.OpenConnection();
             }
-            Transaction = objectContext.Connection.BeginTransaction(isolationLevel);
+            Transaction = _context.Database.GetDbConnection().BeginTransaction(isolationLevel);
         }
 
         public virtual bool Commit()

@@ -1,15 +1,15 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Data.Entity;
 using System.Linq;
 using System.Linq.Expressions;
 using System.Threading;
 using System.Threading.Tasks;
 using LinqKit;
+using Microsoft.EntityFrameworkCore;
 using Repository.Pattern.Repositories;
 using Repository.Pattern.UnitOfWork;
-using TrackableEntities;
-using TrackableEntities.EF6;
+using TrackableEntities.Common.Core;
+using TrackableEntities.EF.Core;
 
 namespace Repository.Pattern.Ef6
 {
@@ -33,7 +33,8 @@ namespace Repository.Pattern.Ef6
 
         public virtual IQueryable<TEntity> SelectQuery(string query, params object[] parameters)
         {
-            return Set.SqlQuery(query, parameters).AsQueryable();
+            //return Set.SqlQuery(query, parameters).AsQueryable();
+            return Set.FromSql(query, parameters).AsQueryable();
         }
 
         public virtual void Insert(TEntity entity)
@@ -146,12 +147,14 @@ namespace Repository.Pattern.Ef6
 
         public virtual async Task<IEnumerable<TEntity>> SelectQueryAsync(string query, params object[] parameters)
         {
-            return await Set.SqlQuery(query, parameters).ToArrayAsync();
+            //return await Set.SqlQuery(query, parameters).ToArrayAsync();
+            return await Set.FromSql(query, parameters).ToArrayAsync();
         }
 
         public virtual async Task<IEnumerable<TEntity>> SelectQueryAsync(string query, CancellationToken cancellationToken, params object[] parameters)
         {
-            return await Set.SqlQuery(query, parameters).ToArrayAsync(cancellationToken);
+            //return await Set.SqlQuery(query, parameters).ToArrayAsync(cancellationToken);
+            return await Set.FromSql(query, parameters).ToArrayAsync(cancellationToken);
         }
 
         internal async Task<IEnumerable<TEntity>> SelectAsync(

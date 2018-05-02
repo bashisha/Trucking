@@ -6,8 +6,14 @@ C:\Users\Bernie\Documents\Projects\Trucking\Trucking.Web.Tests\bin\Debug\netcore
 C:\Users\Bernie\Documents\Projects\Trucking\Trucking.Web.Tests\bin\Debug\netcoreapp2.0\Trucking.Web.Tests.runtimeconfig.dev.json
 C:\Users\Bernie\Documents\Projects\Trucking\Trucking.Web.Tests\bin\Debug\netcoreapp2.0\Trucking.Web.Tests.dll
 C:\Users\Bernie\Documents\Projects\Trucking\Trucking.Web.Tests\bin\Debug\netcoreapp2.0\Trucking.Web.Tests.pdb
+C:\Users\Bernie\Documents\Projects\Trucking\Trucking.Web.Tests\bin\Debug\netcoreapp2.0\Repository.Pattern.dll
+C:\Users\Bernie\Documents\Projects\Trucking\Trucking.Web.Tests\bin\Debug\netcoreapp2.0\Repository.Pattern.Ef6.dll
+C:\Users\Bernie\Documents\Projects\Trucking\Trucking.Web.Tests\bin\Debug\netcoreapp2.0\Trucking.Entities.dll
 C:\Users\Bernie\Documents\Projects\Trucking\Trucking.Web.Tests\bin\Debug\netcoreapp2.0\Trucking.Web.dll
 C:\Users\Bernie\Documents\Projects\Trucking\Trucking.Web.Tests\bin\Debug\netcoreapp2.0\Trucking.Web.pdb
+C:\Users\Bernie\Documents\Projects\Trucking\Trucking.Web.Tests\bin\Debug\netcoreapp2.0\Repository.Pattern.pdb
+C:\Users\Bernie\Documents\Projects\Trucking\Trucking.Web.Tests\bin\Debug\netcoreapp2.0\Repository.Pattern.Ef6.pdb
+C:\Users\Bernie\Documents\Projects\Trucking\Trucking.Web.Tests\bin\Debug\netcoreapp2.0\Trucking.Entities.pdb
 C:\Users\Bernie\Documents\Projects\Trucking\Trucking.Web.Tests\obj\Debug\netcoreapp2.0\Trucking.Web.Tests.csprojResolveAssemblyReference.cache
 C:\Users\Bernie\Documents\Projects\Trucking\Trucking.Web.Tests\obj\Debug\netcoreapp2.0\Trucking.Web.Tests.csproj.CoreCompileInputs.cache
 C:\Users\Bernie\Documents\Projects\Trucking\Trucking.Web.Tests\obj\Debug\netcoreapp2.0\Trucking.Web.Tests.AssemblyInfoInputs.cache

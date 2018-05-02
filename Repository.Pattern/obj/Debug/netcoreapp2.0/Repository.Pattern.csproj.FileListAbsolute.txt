@@ -1,9 +1,9 @@
 C:\Users\Bernie\Documents\Projects\Trucking\Repository.Pattern\bin\Debug\netcoreapp2.0\Repository.Pattern.deps.json
 C:\Users\Bernie\Documents\Projects\Trucking\Repository.Pattern\bin\Debug\netcoreapp2.0\Repository.Pattern.dll
 C:\Users\Bernie\Documents\Projects\Trucking\Repository.Pattern\bin\Debug\netcoreapp2.0\Repository.Pattern.pdb
-C:\Users\Bernie\Documents\Projects\Trucking\Repository.Pattern\obj\Debug\netcoreapp2.0\Repository.Pattern.csprojResolveAssemblyReference.cache
 C:\Users\Bernie\Documents\Projects\Trucking\Repository.Pattern\obj\Debug\netcoreapp2.0\Repository.Pattern.csproj.CoreCompileInputs.cache
 C:\Users\Bernie\Documents\Projects\Trucking\Repository.Pattern\obj\Debug\netcoreapp2.0\Repository.Pattern.AssemblyInfoInputs.cache
 C:\Users\Bernie\Documents\Projects\Trucking\Repository.Pattern\obj\Debug\netcoreapp2.0\Repository.Pattern.AssemblyInfo.cs
 C:\Users\Bernie\Documents\Projects\Trucking\Repository.Pattern\obj\Debug\netcoreapp2.0\Repository.Pattern.dll
 C:\Users\Bernie\Documents\Projects\Trucking\Repository.Pattern\obj\Debug\netcoreapp2.0\Repository.Pattern.pdb
+C:\Users\Bernie\Documents\Projects\Trucking\Repository.Pattern\obj\Debug\netcoreapp2.0\Repository.Pattern.csprojResolveAssemblyReference.cache

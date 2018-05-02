@@ -1611,16 +1611,6 @@
         "runtime": {
           "lib/netstandard1.3/System.Xml.XPath.XmlDocument.dll": {}
         }
-      },
-      "Trucking.Entities/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v2.0",
-        "compile": {
-          "bin/placeholder/Trucking.Entities.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/Trucking.Entities.dll": {}
-        }
       }
     }
   },
@@ -5693,20 +5683,15 @@
         "system.xml.xpath.xmldocument.4.0.1.nupkg.sha512",
         "system.xml.xpath.xmldocument.nuspec"
       ]
-    },
-    "Trucking.Entities/1.0.0": {
-      "type": "project",
-      "path": "../Trucking.Entities/Trucking.Entities.csproj",
-      "msbuildProject": "../Trucking.Entities/Trucking.Entities.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.0": [
+      "C:\\Users\\Bernie\\Documents\\Projects\\Trucking\\Trucking.Entities\\Trucking.Entities.csproj",
       "MSTest.TestAdapter >= 1.2.0",
       "MSTest.TestFramework >= 1.2.0",
       "Microsoft.NET.Test.Sdk >= 15.6.0",
-      "Microsoft.NETCore.App >= 2.0.0",
-      "Trucking.Entities >= 1.0.0"
+      "Microsoft.NETCore.App >= 2.0.0"
     ]
   },
   "packageFolders": {
@@ -5779,5 +5764,16 @@
         "warn": true
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1104",
+      "level": "Error",
+      "message": "Unable to find project 'C:\\Users\\Bernie\\Documents\\Projects\\Trucking\\Trucking.Entities\\Trucking.Entities.csproj'. Check that the project reference is valid and that the project file exists.",
+      "libraryId": "C:\\Users\\Bernie\\Documents\\Projects\\Trucking\\Trucking.Entities\\Trucking.Entities.csproj",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v2.0"
+      ]
+    }
+  ]
 }

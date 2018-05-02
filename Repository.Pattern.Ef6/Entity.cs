@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations.Schema;
-using TrackableEntities;
+using TrackableEntities.Common.Core;
 
 namespace Repository.Pattern.Ef6
 {

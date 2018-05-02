@@ -1,3 +1,7 @@
+C:\Users\Bernie\Documents\Projects\Trucking\Service.Pattern\obj\Debug\netcoreapp2.0\Service.Pattern.csprojResolveAssemblyReference.cache
+C:\Users\Bernie\Documents\Projects\Trucking\Service.Pattern\obj\Debug\netcoreapp2.0\Service.Pattern.csproj.CoreCompileInputs.cache
+C:\Users\Bernie\Documents\Projects\Trucking\Service.Pattern\obj\Debug\netcoreapp2.0\Service.Pattern.AssemblyInfoInputs.cache
+C:\Users\Bernie\Documents\Projects\Trucking\Service.Pattern\obj\Debug\netcoreapp2.0\Service.Pattern.AssemblyInfo.cs
 C:\Users\Bernie\Documents\Projects\Trucking\Service.Pattern\bin\Debug\netcoreapp2.0\Service.Pattern.deps.json
 C:\Users\Bernie\Documents\Projects\Trucking\Service.Pattern\bin\Debug\netcoreapp2.0\Service.Pattern.dll
 C:\Users\Bernie\Documents\Projects\Trucking\Service.Pattern\bin\Debug\netcoreapp2.0\Service.Pattern.pdb
@@ -5,10 +9,6 @@ C:\Users\Bernie\Documents\Projects\Trucking\Service.Pattern\bin\Debug\netcoreapp
 C:\Users\Bernie\Documents\Projects\Trucking\Service.Pattern\bin\Debug\netcoreapp2.0\Repository.Pattern.Ef6.dll
 C:\Users\Bernie\Documents\Projects\Trucking\Service.Pattern\bin\Debug\netcoreapp2.0\Repository.Pattern.Ef6.pdb
 C:\Users\Bernie\Documents\Projects\Trucking\Service.Pattern\bin\Debug\netcoreapp2.0\Repository.Pattern.pdb
-C:\Users\Bernie\Documents\Projects\Trucking\Service.Pattern\obj\Debug\netcoreapp2.0\Service.Pattern.csprojResolveAssemblyReference.cache
-C:\Users\Bernie\Documents\Projects\Trucking\Service.Pattern\obj\Debug\netcoreapp2.0\Service.Pattern.csproj.CoreCompileInputs.cache
-C:\Users\Bernie\Documents\Projects\Trucking\Service.Pattern\obj\Debug\netcoreapp2.0\Service.Pattern.AssemblyInfoInputs.cache
-C:\Users\Bernie\Documents\Projects\Trucking\Service.Pattern\obj\Debug\netcoreapp2.0\Service.Pattern.AssemblyInfo.cs
 C:\Users\Bernie\Documents\Projects\Trucking\Service.Pattern\obj\Debug\netcoreapp2.0\Service.Pattern.csproj.CopyComplete
 C:\Users\Bernie\Documents\Projects\Trucking\Service.Pattern\obj\Debug\netcoreapp2.0\Service.Pattern.dll
 C:\Users\Bernie\Documents\Projects\Trucking\Service.Pattern\obj\Debug\netcoreapp2.0\Service.Pattern.pdb

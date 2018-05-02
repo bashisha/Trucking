@@ -1,6 +1,6 @@
-﻿using System;
-using System.Data.Entity;
-using TrackableEntities;
+﻿using Microsoft.EntityFrameworkCore;
+using System;
+using TrackableEntities.Common.Core;
 
 namespace Repository.Pattern.Ef6
 {

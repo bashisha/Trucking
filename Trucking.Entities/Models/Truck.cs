@@ -1,10 +1,11 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
+﻿using Repository.Pattern.Ef6;
 
 namespace Trucking.Entities.Models
 {
-    class Truck
+    public class Truck: Entity
     {
+        public int Id { get; set; }
+        public string Model { get; set; }
+        public decimal WeightCapacityInTones { get; set; }
     }
 }

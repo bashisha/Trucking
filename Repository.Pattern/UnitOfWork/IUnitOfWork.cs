@@ -1,6 +1,7 @@
 ﻿using System.Data;
 using Repository.Pattern.Repositories;
 using TrackableEntities;
+using TrackableEntities.Common.Core;
 
 namespace Repository.Pattern.UnitOfWork
 {

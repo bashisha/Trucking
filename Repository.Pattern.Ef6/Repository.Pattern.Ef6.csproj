@@ -5,9 +5,16 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="FakeDbContext.cs" />
+    <Compile Remove="FakeDbSet.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="CommonServiceLocator" Version="2.0.3" />
+    <PackageReference Include="DbContextExtensions" Version="1.1.0" />
     <PackageReference Include="LinqKit" Version="1.1.15" />
-    <PackageReference Include="TrackableEntities.EF.6" Version="2.5.7" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="2.1.0-preview2-final" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="2.1.0-preview2-final" />
     <PackageReference Include="TrackableEntities.EF.Core" Version="1.0.0-rc" />
   </ItemGroup>
 

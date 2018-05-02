@@ -4,6 +4,7 @@ using System.Linq;
 using System.Linq.Expressions;
 using System.Threading.Tasks;
 using TrackableEntities;
+using TrackableEntities.Common.Core;
 
 namespace Repository.Pattern.Repositories
 {

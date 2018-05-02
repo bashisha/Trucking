@@ -1,11 +1,13 @@
-﻿using System;
+﻿using Microsoft.EntityFrameworkCore;
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using System.Data.Entity;
 using System.Linq;
 using System.Linq.Expressions;
-using TrackableEntities;
+using TrackableEntities.Common.Core;
+using TrackableEntities.EF.Core;
 
 namespace Repository.Pattern.Ef6
 {
