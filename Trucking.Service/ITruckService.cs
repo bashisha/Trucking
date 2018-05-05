@@ -7,6 +7,9 @@ namespace Trucking.Service
 {
     public interface ITruckService
     {
-        IList<Truck> GetAllTrucks();
+        IList<Truck> GetAll();
+        void Add(Truck truck);
+        void Update(Truck truck);
+        void Delete(Truck truck);
     }
 }

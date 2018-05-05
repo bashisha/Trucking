@@ -41,6 +41,7 @@ namespace Repository.Pattern.Ef6
         {
             entity.TrackingState = TrackingState.Added;
             Context.ApplyChanges(entity);
+            Context.SaveChanges();
         }
 
         public void ApplyChanges(TEntity entity)

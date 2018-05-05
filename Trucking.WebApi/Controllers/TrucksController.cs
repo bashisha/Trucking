@@ -19,9 +19,16 @@ namespace Trucking.WebApi.Controllers
             _truckService = truckService;
         }
 
+        [HttpGet]
         public IList<Truck> Get()
         {
-            return _truckService.GetAllTrucks();
+            return _truckService.GetAll();
+        }
+
+        [HttpPost]
+        public void Post([FromBody]Truck truck)
+        {
+            _truckService.Add(truck);
         }
     }
 }

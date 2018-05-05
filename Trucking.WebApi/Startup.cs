@@ -12,6 +12,8 @@ using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
 using Repository.Pattern.Ef6;
 using Repository.Pattern.Repositories;
+using Repository.Pattern.UnitOfWork;
+using Service.Pattern;
 using Trucking.Service;
 using static Trucking.Entities.Models.MyDbContext;
 
@@ -37,8 +39,10 @@ namespace Trucking.WebApi
             services.AddScoped<DbContext, TruckingDbContext>();
 
             services.AddDbContext<TruckingDbContext>(options => options.UseSqlServer(connection));
-            
+
             services.AddTransient(typeof(IRepository<>), typeof(Repository<>));
+            services.AddTransient(typeof(IUnitOfWorkAsync), typeof(UnitOfWork));
+                            
             //services.AddTransient<ITruckService, TruckService>();
 
             services.Scan(scan => scan
