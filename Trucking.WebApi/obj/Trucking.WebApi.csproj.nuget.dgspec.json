@@ -1,0 +1,413 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\berni\\Desktop\\Projects\\Trucking\\Trucking.WebApi\\Trucking.WebApi.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\berni\\Desktop\\Projects\\Trucking\\Repository.Pattern.Ef6\\Repository.Pattern.Ef6.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\berni\\Desktop\\Projects\\Trucking\\Repository.Pattern.Ef6\\Repository.Pattern.Ef6.csproj",
+        "projectName": "Repository.Pattern.Ef6",
+        "projectPath": "C:\\Users\\berni\\Desktop\\Projects\\Trucking\\Repository.Pattern.Ef6\\Repository.Pattern.Ef6.csproj",
+        "packagesPath": "C:\\Users\\berni\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\berni\\Desktop\\Projects\\Trucking\\Repository.Pattern.Ef6\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\ProgramData\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\berni\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {
+              "C:\\Users\\berni\\Desktop\\Projects\\Trucking\\Repository.Pattern\\Repository.Pattern.csproj": {
+                "projectPath": "C:\\Users\\berni\\Desktop\\Projects\\Trucking\\Repository.Pattern\\Repository.Pattern.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "CommonServiceLocator": {
+              "target": "Package",
+              "version": "[2.0.4, )"
+            },
+            "DbContextExtensions": {
+              "target": "Package",
+              "version": "[1.1.0, )"
+            },
+            "LinqKit": {
+              "target": "Package",
+              "version": "[1.1.16, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.0.0-preview4.19216.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.0.0-preview4.19216.3, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            },
+            "TrackableEntities.EF.Core": {
+              "target": "Package",
+              "version": "[1.2.0, )"
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "C:\\Users\\berni\\Desktop\\Projects\\Trucking\\Repository.Pattern\\Repository.Pattern.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\berni\\Desktop\\Projects\\Trucking\\Repository.Pattern\\Repository.Pattern.csproj",
+        "projectName": "Repository.Pattern",
+        "projectPath": "C:\\Users\\berni\\Desktop\\Projects\\Trucking\\Repository.Pattern\\Repository.Pattern.csproj",
+        "packagesPath": "C:\\Users\\berni\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\berni\\Desktop\\Projects\\Trucking\\Repository.Pattern\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\ProgramData\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\berni\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            },
+            "TrackableEntities.EF.Core": {
+              "target": "Package",
+              "version": "[1.2.0, )"
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "C:\\Users\\berni\\Desktop\\Projects\\Trucking\\Service.Pattern\\Service.Pattern.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\berni\\Desktop\\Projects\\Trucking\\Service.Pattern\\Service.Pattern.csproj",
+        "projectName": "Service.Pattern",
+        "projectPath": "C:\\Users\\berni\\Desktop\\Projects\\Trucking\\Service.Pattern\\Service.Pattern.csproj",
+        "packagesPath": "C:\\Users\\berni\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\berni\\Desktop\\Projects\\Trucking\\Service.Pattern\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\ProgramData\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\berni\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {
+              "C:\\Users\\berni\\Desktop\\Projects\\Trucking\\Repository.Pattern.Ef6\\Repository.Pattern.Ef6.csproj": {
+                "projectPath": "C:\\Users\\berni\\Desktop\\Projects\\Trucking\\Repository.Pattern.Ef6\\Repository.Pattern.Ef6.csproj"
+              },
+              "C:\\Users\\berni\\Desktop\\Projects\\Trucking\\Repository.Pattern\\Repository.Pattern.csproj": {
+                "projectPath": "C:\\Users\\berni\\Desktop\\Projects\\Trucking\\Repository.Pattern\\Repository.Pattern.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "C:\\Users\\berni\\Desktop\\Projects\\Trucking\\Trucking.Entities\\Trucking.Entities.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\berni\\Desktop\\Projects\\Trucking\\Trucking.Entities\\Trucking.Entities.csproj",
+        "projectName": "Trucking.Entities",
+        "projectPath": "C:\\Users\\berni\\Desktop\\Projects\\Trucking\\Trucking.Entities\\Trucking.Entities.csproj",
+        "packagesPath": "C:\\Users\\berni\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\berni\\Desktop\\Projects\\Trucking\\Trucking.Entities\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\ProgramData\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\berni\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {
+              "C:\\Users\\berni\\Desktop\\Projects\\Trucking\\Repository.Pattern.Ef6\\Repository.Pattern.Ef6.csproj": {
+                "projectPath": "C:\\Users\\berni\\Desktop\\Projects\\Trucking\\Repository.Pattern.Ef6\\Repository.Pattern.Ef6.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.0.0-preview4.19216.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.0.0-preview4.19216.3, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "C:\\Users\\berni\\Desktop\\Projects\\Trucking\\Trucking.Service\\Trucking.Service.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\berni\\Desktop\\Projects\\Trucking\\Trucking.Service\\Trucking.Service.csproj",
+        "projectName": "Trucking.Service",
+        "projectPath": "C:\\Users\\berni\\Desktop\\Projects\\Trucking\\Trucking.Service\\Trucking.Service.csproj",
+        "packagesPath": "C:\\Users\\berni\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\berni\\Desktop\\Projects\\Trucking\\Trucking.Service\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\ProgramData\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\berni\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {
+              "C:\\Users\\berni\\Desktop\\Projects\\Trucking\\Service.Pattern\\Service.Pattern.csproj": {
+                "projectPath": "C:\\Users\\berni\\Desktop\\Projects\\Trucking\\Service.Pattern\\Service.Pattern.csproj"
+              },
+              "C:\\Users\\berni\\Desktop\\Projects\\Trucking\\Trucking.Entities\\Trucking.Entities.csproj": {
+                "projectPath": "C:\\Users\\berni\\Desktop\\Projects\\Trucking\\Trucking.Entities\\Trucking.Entities.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "C:\\Users\\berni\\Desktop\\Projects\\Trucking\\Trucking.WebApi\\Trucking.WebApi.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\berni\\Desktop\\Projects\\Trucking\\Trucking.WebApi\\Trucking.WebApi.csproj",
+        "projectName": "Trucking.WebApi",
+        "projectPath": "C:\\Users\\berni\\Desktop\\Projects\\Trucking\\Trucking.WebApi\\Trucking.WebApi.csproj",
+        "packagesPath": "C:\\Users\\berni\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\berni\\Desktop\\Projects\\Trucking\\Trucking.WebApi\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\ProgramData\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\berni\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {
+              "C:\\Users\\berni\\Desktop\\Projects\\Trucking\\Trucking.Entities\\Trucking.Entities.csproj": {
+                "projectPath": "C:\\Users\\berni\\Desktop\\Projects\\Trucking\\Trucking.Entities\\Trucking.Entities.csproj"
+              },
+              "C:\\Users\\berni\\Desktop\\Projects\\Trucking\\Trucking.Service\\Trucking.Service.csproj": {
+                "projectPath": "C:\\Users\\berni\\Desktop\\Projects\\Trucking\\Trucking.Service\\Trucking.Service.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.AspNetCore.All": {
+              "target": "Package",
+              "version": "[2.0.6, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[2.0.3, )"
+            },
+            "Scrutor": {
+              "target": "Package",
+              "version": "[2.2.2, )"
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}

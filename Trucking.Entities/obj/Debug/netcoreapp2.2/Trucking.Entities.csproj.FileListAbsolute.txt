@@ -1,0 +1,16 @@
+C:\Users\berni\Desktop\Projects\Trucking\Trucking.Entities\bin\Debug\netcoreapp2.2\Trucking.Entities.deps.json
+C:\Users\berni\Desktop\Projects\Trucking\Trucking.Entities\bin\Debug\netcoreapp2.2\Trucking.Entities.runtimeconfig.json
+C:\Users\berni\Desktop\Projects\Trucking\Trucking.Entities\bin\Debug\netcoreapp2.2\Trucking.Entities.runtimeconfig.dev.json
+C:\Users\berni\Desktop\Projects\Trucking\Trucking.Entities\bin\Debug\netcoreapp2.2\Trucking.Entities.dll
+C:\Users\berni\Desktop\Projects\Trucking\Trucking.Entities\bin\Debug\netcoreapp2.2\Trucking.Entities.pdb
+C:\Users\berni\Desktop\Projects\Trucking\Trucking.Entities\bin\Debug\netcoreapp2.2\Repository.Pattern.dll
+C:\Users\berni\Desktop\Projects\Trucking\Trucking.Entities\bin\Debug\netcoreapp2.2\Repository.Pattern.Ef6.dll
+C:\Users\berni\Desktop\Projects\Trucking\Trucking.Entities\bin\Debug\netcoreapp2.2\Repository.Pattern.Ef6.pdb
+C:\Users\berni\Desktop\Projects\Trucking\Trucking.Entities\bin\Debug\netcoreapp2.2\Repository.Pattern.pdb
+C:\Users\berni\Desktop\Projects\Trucking\Trucking.Entities\obj\Debug\netcoreapp2.2\Trucking.Entities.csprojAssemblyReference.cache
+C:\Users\berni\Desktop\Projects\Trucking\Trucking.Entities\obj\Debug\netcoreapp2.2\Trucking.Entities.csproj.CoreCompileInputs.cache
+C:\Users\berni\Desktop\Projects\Trucking\Trucking.Entities\obj\Debug\netcoreapp2.2\Trucking.Entities.AssemblyInfoInputs.cache
+C:\Users\berni\Desktop\Projects\Trucking\Trucking.Entities\obj\Debug\netcoreapp2.2\Trucking.Entities.AssemblyInfo.cs
+C:\Users\berni\Desktop\Projects\Trucking\Trucking.Entities\obj\Debug\netcoreapp2.2\Trucking.Entities.csproj.CopyComplete
+C:\Users\berni\Desktop\Projects\Trucking\Trucking.Entities\obj\Debug\netcoreapp2.2\Trucking.Entities.dll
+C:\Users\berni\Desktop\Projects\Trucking\Trucking.Entities\obj\Debug\netcoreapp2.2\Trucking.Entities.pdb

@@ -1,0 +1,14 @@
+C:\Users\berni\Desktop\Projects\Trucking\Service.Pattern\bin\Debug\netcoreapp2.2\Service.Pattern.deps.json
+C:\Users\berni\Desktop\Projects\Trucking\Service.Pattern\bin\Debug\netcoreapp2.2\Service.Pattern.dll
+C:\Users\berni\Desktop\Projects\Trucking\Service.Pattern\bin\Debug\netcoreapp2.2\Service.Pattern.pdb
+C:\Users\berni\Desktop\Projects\Trucking\Service.Pattern\bin\Debug\netcoreapp2.2\Repository.Pattern.dll
+C:\Users\berni\Desktop\Projects\Trucking\Service.Pattern\bin\Debug\netcoreapp2.2\Repository.Pattern.Ef6.dll
+C:\Users\berni\Desktop\Projects\Trucking\Service.Pattern\bin\Debug\netcoreapp2.2\Repository.Pattern.Ef6.pdb
+C:\Users\berni\Desktop\Projects\Trucking\Service.Pattern\bin\Debug\netcoreapp2.2\Repository.Pattern.pdb
+C:\Users\berni\Desktop\Projects\Trucking\Service.Pattern\obj\Debug\netcoreapp2.2\Service.Pattern.csprojAssemblyReference.cache
+C:\Users\berni\Desktop\Projects\Trucking\Service.Pattern\obj\Debug\netcoreapp2.2\Service.Pattern.csproj.CoreCompileInputs.cache
+C:\Users\berni\Desktop\Projects\Trucking\Service.Pattern\obj\Debug\netcoreapp2.2\Service.Pattern.AssemblyInfoInputs.cache
+C:\Users\berni\Desktop\Projects\Trucking\Service.Pattern\obj\Debug\netcoreapp2.2\Service.Pattern.AssemblyInfo.cs
+C:\Users\berni\Desktop\Projects\Trucking\Service.Pattern\obj\Debug\netcoreapp2.2\Service.Pattern.csproj.CopyComplete
+C:\Users\berni\Desktop\Projects\Trucking\Service.Pattern\obj\Debug\netcoreapp2.2\Service.Pattern.dll
+C:\Users\berni\Desktop\Projects\Trucking\Service.Pattern\obj\Debug\netcoreapp2.2\Service.Pattern.pdb

@@ -1,0 +1,17 @@
+C:\Users\berni\Desktop\Projects\Trucking\Trucking.Repository.Tests\bin\Debug\netcoreapp2.2\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Users\berni\Desktop\Projects\Trucking\Trucking.Repository.Tests\bin\Debug\netcoreapp2.2\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Users\berni\Desktop\Projects\Trucking\Trucking.Repository.Tests\bin\Debug\netcoreapp2.2\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Users\berni\Desktop\Projects\Trucking\Trucking.Repository.Tests\bin\Debug\netcoreapp2.2\Trucking.Repository.Tests.deps.json
+C:\Users\berni\Desktop\Projects\Trucking\Trucking.Repository.Tests\bin\Debug\netcoreapp2.2\Trucking.Repository.Tests.runtimeconfig.json
+C:\Users\berni\Desktop\Projects\Trucking\Trucking.Repository.Tests\bin\Debug\netcoreapp2.2\Trucking.Repository.Tests.runtimeconfig.dev.json
+C:\Users\berni\Desktop\Projects\Trucking\Trucking.Repository.Tests\bin\Debug\netcoreapp2.2\Trucking.Repository.Tests.dll
+C:\Users\berni\Desktop\Projects\Trucking\Trucking.Repository.Tests\bin\Debug\netcoreapp2.2\Trucking.Repository.Tests.pdb
+C:\Users\berni\Desktop\Projects\Trucking\Trucking.Repository.Tests\bin\Debug\netcoreapp2.2\Trucking.Repository.dll
+C:\Users\berni\Desktop\Projects\Trucking\Trucking.Repository.Tests\bin\Debug\netcoreapp2.2\Trucking.Repository.pdb
+C:\Users\berni\Desktop\Projects\Trucking\Trucking.Repository.Tests\obj\Debug\netcoreapp2.2\Trucking.Repository.Tests.csprojAssemblyReference.cache
+C:\Users\berni\Desktop\Projects\Trucking\Trucking.Repository.Tests\obj\Debug\netcoreapp2.2\Trucking.Repository.Tests.csproj.CoreCompileInputs.cache
+C:\Users\berni\Desktop\Projects\Trucking\Trucking.Repository.Tests\obj\Debug\netcoreapp2.2\Trucking.Repository.Tests.AssemblyInfoInputs.cache
+C:\Users\berni\Desktop\Projects\Trucking\Trucking.Repository.Tests\obj\Debug\netcoreapp2.2\Trucking.Repository.Tests.AssemblyInfo.cs
+C:\Users\berni\Desktop\Projects\Trucking\Trucking.Repository.Tests\obj\Debug\netcoreapp2.2\Trucking.Repository.Tests.csproj.CopyComplete
+C:\Users\berni\Desktop\Projects\Trucking\Trucking.Repository.Tests\obj\Debug\netcoreapp2.2\Trucking.Repository.Tests.dll
+C:\Users\berni\Desktop\Projects\Trucking\Trucking.Repository.Tests\obj\Debug\netcoreapp2.2\Trucking.Repository.Tests.pdb
