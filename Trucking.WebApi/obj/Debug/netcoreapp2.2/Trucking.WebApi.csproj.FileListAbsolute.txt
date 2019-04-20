@@ -20,3 +20,6 @@ C:\Users\berni\Desktop\Projects\Trucking\Trucking.WebApi\obj\Debug\netcoreapp2.2
 C:\Users\berni\Desktop\Projects\Trucking\Trucking.WebApi\obj\Debug\netcoreapp2.2\Trucking.WebApi.csproj.CopyComplete
 C:\Users\berni\Desktop\Projects\Trucking\Trucking.WebApi\obj\Debug\netcoreapp2.2\Trucking.WebApi.dll
 C:\Users\berni\Desktop\Projects\Trucking\Trucking.WebApi\obj\Debug\netcoreapp2.2\Trucking.WebApi.pdb
+C:\Users\berni\Desktop\Projects\Trucking\Trucking.WebApi\obj\Debug\netcoreapp2.2\Trucking.WebApi.RazorAssemblyInfo.cache
+C:\Users\berni\Desktop\Projects\Trucking\Trucking.WebApi\obj\Debug\netcoreapp2.2\Trucking.WebApi.RazorAssemblyInfo.cs
+C:\Users\berni\Desktop\Projects\Trucking\Trucking.WebApi\obj\Debug\netcoreapp2.2\Trucking.WebApi.RazorTargetAssemblyInfo.cache

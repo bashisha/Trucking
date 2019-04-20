@@ -19,6 +19,8 @@ namespace Trucking.Entities.Models
             public virtual DbSet<Freight> Freights { get; set; }
             public virtual DbSet<Owner> Owners { get; set; }
             public virtual DbSet<Truck> Trucks { get; set; }
+            public virtual DbSet<Address> Addresses { get; set; }
+            public virtual DbSet<Driver> Drivers { get; set; }
         }
     }
 }

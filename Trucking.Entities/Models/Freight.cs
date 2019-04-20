@@ -6,7 +6,7 @@ namespace Trucking.Entities.Models
     {
         public int Id { get; set; }
         public int Weight { get; set; }
-        public string FromAddress { get; set; }
-        public string ToAddress { get; set; }
+        public Address FromAddress { get; set; }
+        public Address ToAddress { get; set; }
     }
 }

@@ -61,13 +61,13 @@
             },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
-              "version": "[3.0.0-preview4.19216.3, )"
+              "version": "[2.2.4, )"
             },
             "Microsoft.EntityFrameworkCore.Tools": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[3.0.0-preview4.19216.3, )"
+              "version": "[2.2.4, )"
             },
             "Microsoft.NETCore.App": {
               "suppressParent": "All",
@@ -250,15 +250,21 @@
       "frameworks": {
         "netcoreapp2.2": {
           "dependencies": {
-            "Microsoft.EntityFrameworkCore.SqlServer": {
+            "Microsoft.AspNetCore.All": {
               "target": "Package",
-              "version": "[3.0.0-preview4.19216.3, )"
+              "version": "[2.2.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.4, )"
             },
             "Microsoft.EntityFrameworkCore.Tools": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[3.0.0-preview4.19216.3, )"
+              "version": "[2.2.4, )"
             },
             "Microsoft.NETCore.App": {
               "suppressParent": "All",
@@ -381,15 +387,15 @@
           "dependencies": {
             "MSTest.TestAdapter": {
               "target": "Package",
-              "version": "[1.2.0, )"
+              "version": "[2.0.0-beta4, )"
             },
             "MSTest.TestFramework": {
               "target": "Package",
-              "version": "[1.2.0, )"
+              "version": "[2.0.0-beta4, )"
             },
             "Microsoft.NET.Test.Sdk": {
               "target": "Package",
-              "version": "[15.6.0, )"
+              "version": "[16.0.1, )"
             },
             "Microsoft.NETCore.App": {
               "suppressParent": "All",
@@ -399,7 +405,7 @@
             },
             "Moq": {
               "target": "Package",
-              "version": "[4.8.2, )"
+              "version": "[4.11.0-rc1, )"
             }
           },
           "imports": [
@@ -458,7 +464,7 @@
           "dependencies": {
             "Microsoft.AspNetCore.All": {
               "target": "Package",
-              "version": "[2.0.6, )"
+              "version": "[2.2.4, )"
             },
             "Microsoft.NETCore.App": {
               "suppressParent": "All",
@@ -468,11 +474,11 @@
             },
             "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
               "target": "Package",
-              "version": "[2.0.3, )"
+              "version": "[2.2.3, )"
             },
             "Scrutor": {
               "target": "Package",
-              "version": "[2.2.2, )"
+              "version": "[3.0.2, )"
             }
           },
           "imports": [
