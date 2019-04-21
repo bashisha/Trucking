@@ -3,15 +3,17 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using Trucking.Entities.Models;
 
 namespace Trucking.Entities.Migrations
 {
     [DbContext(typeof(MyDbContext.TruckingDbContext))]
-    partial class TruckingDbContextModelSnapshot : ModelSnapshot
+    [Migration("20190420220749_AddedFieldToTruck")]
+    partial class AddedFieldToTruck
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder

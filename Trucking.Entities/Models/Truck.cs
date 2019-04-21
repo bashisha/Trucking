@@ -12,5 +12,7 @@ namespace Trucking.Entities.Models
         public Driver Driver { get; set; }
         public int WeightCapacityInTones { get; set; }
         public Owner Owner { get; set; }
+        public Address CurrentLocation { get; set; }        
+
     }
 }
