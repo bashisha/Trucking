@@ -66,7 +66,11 @@ namespace Trucking.Entities.Migrations
                         .ValueGeneratedOnAdd()
                         .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
+                    b.Property<string>("FreightType");
+
                     b.Property<int?>("FromAddressId");
+
+                    b.Property<string>("Image");
 
                     b.Property<int?>("ToAddressId");
 
@@ -98,7 +102,7 @@ namespace Trucking.Entities.Migrations
                         .ValueGeneratedOnAdd()
                         .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
-                    b.Property<int?>("CurrentLocationId");
+                    b.Property<string>("CurrentCity");
 
                     b.Property<int?>("DriverId");
 
@@ -113,8 +117,6 @@ namespace Trucking.Entities.Migrations
                     b.Property<int>("WeightCapacityInTones");
 
                     b.HasKey("Id");
-
-                    b.HasIndex("CurrentLocationId");
 
                     b.HasIndex("DriverId");
 
@@ -136,10 +138,6 @@ namespace Trucking.Entities.Migrations
 
             modelBuilder.Entity("Trucking.Entities.Models.Truck", b =>
                 {
-                    b.HasOne("Trucking.Entities.Models.Address", "CurrentLocation")
-                        .WithMany()
-                        .HasForeignKey("CurrentLocationId");
-
                     b.HasOne("Trucking.Entities.Models.Driver", "Driver")
                         .WithMany()
                         .HasForeignKey("DriverId");

@@ -6,7 +6,9 @@ namespace Trucking.Entities.Models
     {
         public int Id { get; set; }
         public int Weight { get; set; }
+        public string FreightType { get; set; }        
         public Address FromAddress { get; set; }
         public Address ToAddress { get; set; }
+        public string Image { get; set; }
     }
 }

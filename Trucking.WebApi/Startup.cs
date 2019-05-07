@@ -25,6 +25,8 @@ namespace Trucking.WebApi
         {
             Configuration = configuration;
         }
+        readonly string MyAllowSpecificOrigins = "AllAllOrginis";
+
 
         public IConfiguration Configuration { get; }
 
@@ -47,10 +49,23 @@ namespace Trucking.WebApi
 
             services.Scan(scan => scan
                     .FromAssemblyOf<ITruckService>()
-                    .AddClasses(classes => classes.AssignableTo<ITruckService>())
+                    .AddClasses(classes => classes.AssignableTo<ITruckService>())                    
                     .AsImplementedInterfaces()
                     .WithTransientLifetime());
-              }
+            services.AddTransient<IFreightService, FreightService>();
+
+            services.AddCors(options =>
+            {
+                options.AddPolicy("AllowAll",
+                builder =>
+                {
+                    builder.AllowAnyOrigin()
+                           .AllowAnyHeader()
+                           .AllowAnyMethod()
+                           .AllowCredentials();                    
+                });
+            });
+        }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IHostingEnvironment env)
@@ -61,6 +76,7 @@ namespace Trucking.WebApi
             }
 
             app.UseMvc();
+            app.UseCors("AllowAll");
         }
 
 
