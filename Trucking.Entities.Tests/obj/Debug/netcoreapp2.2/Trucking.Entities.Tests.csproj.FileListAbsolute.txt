@@ -11,3 +11,4 @@ C:\Users\berni\Desktop\Projects\Trucking\Trucking.Entities.Tests\obj\Debug\netco
 C:\Users\berni\Desktop\Projects\Trucking\Trucking.Entities.Tests\obj\Debug\netcoreapp2.2\Trucking.Entities.Tests.AssemblyInfo.cs
 C:\Users\berni\Desktop\Projects\Trucking\Trucking.Entities.Tests\obj\Debug\netcoreapp2.2\Trucking.Entities.Tests.dll
 C:\Users\berni\Desktop\Projects\Trucking\Trucking.Entities.Tests\obj\Debug\netcoreapp2.2\Trucking.Entities.Tests.pdb
+C:\Users\berni\Desktop\Projects\Trucking\Trucking.Entities.Tests\obj\Debug\netcoreapp2.2\Trucking.Entities.Tests.csprojAssemblyReference.cache

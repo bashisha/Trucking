@@ -6,3 +6,4 @@ C:\Users\berni\Desktop\Projects\Trucking\Trucking.Repository\obj\Debug\netcoreap
 C:\Users\berni\Desktop\Projects\Trucking\Trucking.Repository\obj\Debug\netcoreapp2.2\Trucking.Repository.AssemblyInfo.cs
 C:\Users\berni\Desktop\Projects\Trucking\Trucking.Repository\obj\Debug\netcoreapp2.2\Trucking.Repository.dll
 C:\Users\berni\Desktop\Projects\Trucking\Trucking.Repository\obj\Debug\netcoreapp2.2\Trucking.Repository.pdb
+C:\Users\berni\Desktop\Projects\Trucking\Trucking.Repository\obj\Debug\netcoreapp2.2\Trucking.Repository.csprojAssemblyReference.cache
