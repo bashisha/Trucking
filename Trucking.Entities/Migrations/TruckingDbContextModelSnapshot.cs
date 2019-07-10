@@ -88,11 +88,11 @@ namespace Trucking.Entities.Migrations
 
                     b.Property<string>("FreightType");
 
-                    b.Property<string>("FromAddress");
+                    b.Property<string>("FromCity");
 
                     b.Property<string>("Image");
 
-                    b.Property<string>("ToAddress");
+                    b.Property<string>("ToCity");
 
                     b.Property<int>("Weight");
 
