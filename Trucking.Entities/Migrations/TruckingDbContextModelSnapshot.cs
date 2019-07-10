@@ -44,6 +44,16 @@ namespace Trucking.Entities.Migrations
                         .ValueGeneratedOnAdd()
                         .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
+                    b.Property<string>("Address");
+
+                    b.Property<string>("Email");
+
+                    b.Property<string>("FirstName");
+
+                    b.Property<string>("LastName");
+
+                    b.Property<string>("PhoneNumber");
+
                     b.HasKey("Id");
 
                     b.ToTable("Customers");
@@ -54,6 +64,16 @@ namespace Trucking.Entities.Migrations
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
                         .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
+
+                    b.Property<string>("Address");
+
+                    b.Property<string>("Email");
+
+                    b.Property<string>("FirstName");
+
+                    b.Property<string>("LastName");
+
+                    b.Property<string>("PhoneNumber");
 
                     b.HasKey("Id");
 
@@ -68,19 +88,15 @@ namespace Trucking.Entities.Migrations
 
                     b.Property<string>("FreightType");
 
-                    b.Property<int?>("FromAddressId");
+                    b.Property<string>("FromAddress");
 
                     b.Property<string>("Image");
 
-                    b.Property<int?>("ToAddressId");
+                    b.Property<string>("ToAddress");
 
                     b.Property<int>("Weight");
 
                     b.HasKey("Id");
-
-                    b.HasIndex("FromAddressId");
-
-                    b.HasIndex("ToAddressId");
 
                     b.ToTable("Freights");
                 });
@@ -90,6 +106,16 @@ namespace Trucking.Entities.Migrations
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
                         .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
+
+                    b.Property<string>("Address");
+
+                    b.Property<string>("Email");
+
+                    b.Property<string>("FirstName");
+
+                    b.Property<string>("LastName");
+
+                    b.Property<string>("PhoneNumber");
 
                     b.HasKey("Id");
 
@@ -123,17 +149,6 @@ namespace Trucking.Entities.Migrations
                     b.HasIndex("OwnerId");
 
                     b.ToTable("Trucks");
-                });
-
-            modelBuilder.Entity("Trucking.Entities.Models.Freight", b =>
-                {
-                    b.HasOne("Trucking.Entities.Models.Address", "FromAddress")
-                        .WithMany()
-                        .HasForeignKey("FromAddressId");
-
-                    b.HasOne("Trucking.Entities.Models.Address", "ToAddress")
-                        .WithMany()
-                        .HasForeignKey("ToAddressId");
                 });
 
             modelBuilder.Entity("Trucking.Entities.Models.Truck", b =>
