@@ -39,7 +39,14 @@ namespace Trucking.WebApi.Controllers
         [HttpPost]
         public void Post([FromBody]FreightVM freight)
         {
-            //  _freightService.Add(freight);
+            var fr = new Freight
+            {
+                Weight = freight.WeightInTonnes,
+                FreightType = freight.FreightType,
+                FromCity = freight.FromZipCode,
+                ToCity= freight.ToZipCode
+            };
+              _freightService.Add(fr);
         }
     }
 }
