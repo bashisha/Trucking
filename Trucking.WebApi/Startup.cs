@@ -27,14 +27,11 @@ namespace Trucking.WebApi
         }
         readonly string MyAllowSpecificOrigins = "AllAllOrginis";
 
-
         public IConfiguration Configuration { get; }
 
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-
-
             services.AddMvc();
             var connection = @"Server=.\SQLEXPRESS; Database = Trucking; Trusted_Connection = True";
            
@@ -56,13 +53,14 @@ namespace Trucking.WebApi
 
             services.AddCors(options =>
             {
-                options.AddPolicy("AllowAll",
+                options.AddPolicy(MyAllowSpecificOrigins,
                 builder =>
                 {
-                    builder.AllowAnyOrigin()
-                           .AllowAnyHeader()
-                           .AllowAnyMethod()
-                           .AllowCredentials();                    
+                    builder.WithOrigins("http://localhost:18105/",
+                                        "http://localhost:8100/",
+                                        "http://www.contoso.com")
+                                        .AllowAnyHeader()
+                                        .AllowAnyMethod(); 
                 });
             });
         }
@@ -76,7 +74,7 @@ namespace Trucking.WebApi
             }
 
             app.UseMvc();
-            app.UseCors("AllowAll");
+            app.UseCors(MyAllowSpecificOrigins);
         }
 
 

@@ -1,4 +1,5 @@
 ﻿using System.Collections.Generic;
+using Microsoft.AspNetCore.Cors;
 using Microsoft.AspNetCore.Mvc;
 using Trucking.Entities.Models;
 using Trucking.Service;
@@ -16,6 +17,7 @@ namespace Trucking.WebApi.Controllers
             _freightService = freightService;
         }
 
+        [EnableCors("AllAllOrginis")]
         [HttpGet]
         public IList<FreightVM> Get()
         {
