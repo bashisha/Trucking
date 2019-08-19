@@ -2,6 +2,8 @@
 using Microsoft.AspNetCore.Mvc;
 using Trucking.Entities.Models;
 using Trucking.Service;
+using Trucking.WebApi.ViewModels;
+using System.Linq;
 
 namespace Trucking.WebApi.Controllers
 {
@@ -16,14 +18,16 @@ namespace Trucking.WebApi.Controllers
         }
 
         [HttpGet]
-        public IList<Truck> Get()
+        public IList<TruckVM> Get()
         {
-            return _truckService.GetAll();
+            var list = _truckService.GetAll();
+            return list.Select(t => new TruckVM(t)).ToList();
         }
 
         [HttpPost]
-        public void Post([FromBody]Truck truck)
+        public void Post([FromBody]TruckVM truckVM)
         {
+            var truck = truckVM.GetTruck();
             _truckService.Add(truck);
         }
     }

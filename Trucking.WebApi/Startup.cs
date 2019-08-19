@@ -33,7 +33,7 @@ namespace Trucking.WebApi
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddMvc();
-            var connection = @"Server=.\SQLEXPRESS; Database = Trucking; Trusted_Connection = True";
+            var connection = @"Server=.\SQLEXPRESS01; Database = Trucking; Trusted_Connection = True";
            
             services.AddScoped<DbContext, TruckingDbContext>();
 
