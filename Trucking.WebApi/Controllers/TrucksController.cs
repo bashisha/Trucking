@@ -4,6 +4,7 @@ using Trucking.Entities.Models;
 using Trucking.Service;
 using Trucking.WebApi.ViewModels;
 using System.Linq;
+using Microsoft.AspNetCore.Cors;
 
 namespace Trucking.WebApi.Controllers
 {
@@ -16,7 +17,7 @@ namespace Trucking.WebApi.Controllers
         {
             _truckService = truckService;
         }
-
+        [EnableCors("AllAllOrginis")]
         [HttpGet]
         public IList<TruckVM> Get()
         {
@@ -24,6 +25,7 @@ namespace Trucking.WebApi.Controllers
             return list.Select(t => new TruckVM(t)).ToList();
         }
 
+        [EnableCors("AllAllOrginis")]
         [HttpPost]
         public void Post([FromBody]TruckVM truckVM)
         {

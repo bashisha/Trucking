@@ -16,6 +16,7 @@ namespace Trucking.WebApi.ViewModels
         public int WeightCapacityInTones { get; set; }
         public string DriverName { get; set; }
         public string OwnerName { get; set; }
+        public string CurrentCity { get; set; }
         public TruckVM(Truck truck)
         {
             this.Id = truck.Id;
@@ -23,8 +24,11 @@ namespace Trucking.WebApi.ViewModels
             this.Manufacturer = truck.Manufacturer;
             this.Mileage = truck.Mileage;
             this.WeightCapacityInTones = truck.WeightCapacityInTones;
-            this.DriverName = GetFullName(truck.Driver.LastName, truck.Driver.FirstName);
-            this.OwnerName = GetFullName(truck.Owner.LastName, truck.Driver.FirstName);
+            var driver = truck.Driver;
+            this.DriverName =( driver!=null ? GetFullName(driver.LastName, driver.FirstName):"");
+            var owner = truck.Owner;
+            this.OwnerName = (owner!=null? GetFullName(owner.LastName, owner.FirstName):"");
+            this.CurrentCity = truck.CurrentCity;
         }
 
         internal Truck GetTruck()
@@ -35,7 +39,9 @@ namespace Trucking.WebApi.ViewModels
                 Model = this.Model,
                 Manufacturer = this.Manufacturer,
                 Mileage = this.Mileage,
-                WeightCapacityInTones = this.WeightCapacityInTones
+                WeightCapacityInTones = this.WeightCapacityInTones,
+                CurrentCity = this.CurrentCity
+                
             };
         }
 

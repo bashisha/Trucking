@@ -5,6 +5,7 @@ using System.Reflection;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
@@ -34,19 +35,19 @@ namespace Trucking.WebApi
         {
             services.AddMvc();
             var connection = @"Server=.\SQLEXPRESS01; Database = Trucking; Trusted_Connection = True";
-           
+
             services.AddScoped<DbContext, TruckingDbContext>();
 
             services.AddDbContext<TruckingDbContext>(options => options.UseSqlServer(connection));
 
             services.AddTransient(typeof(IRepository<>), typeof(Repository<>));
             services.AddTransient(typeof(IUnitOfWorkAsync), typeof(UnitOfWork));
-                            
+
             //services.AddTransient<ITruckService, TruckService>();
 
             services.Scan(scan => scan
                     .FromAssemblyOf<ITruckService>()
-                    .AddClasses(classes => classes.AssignableTo<ITruckService>())                    
+                    .AddClasses(classes => classes.AssignableTo<ITruckService>())
                     .AsImplementedInterfaces()
                     .WithTransientLifetime());
             services.AddTransient<IFreightService, FreightService>();
@@ -56,13 +57,13 @@ namespace Trucking.WebApi
                 options.AddPolicy(MyAllowSpecificOrigins,
                 builder =>
                 {
-                    builder.WithOrigins("http://localhost:18105/",
-                                        "http://localhost:8100/",
-                                        "http://www.contoso.com")
-                                        .AllowAnyHeader()
-                                        .AllowAnyMethod(); 
+                    builder.AllowAnyOrigin()
+                           .AllowAnyHeader()
+                           .AllowAnyMethod();
                 });
             });
+            services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
+          
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -71,10 +72,9 @@ namespace Trucking.WebApi
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
-            }
-
+            }            
+            app.UseCors();
             app.UseMvc();
-            app.UseCors(MyAllowSpecificOrigins);
         }
 
 
